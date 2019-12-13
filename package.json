@@ -1,5 +1,5 @@
 {
-  "name": "solarsystem",
+  "name": "npm-solarsystem",
   "version": "1.0.0",
   "description": "Solar System Package",
   "main": "index.js",

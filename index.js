@@ -3,4 +3,4 @@ function allPlanets() {
     return planets;
 }
 
-module.exports.getPlanets = allPlanets;
+module.exports.getPlanets = allPlanets();
