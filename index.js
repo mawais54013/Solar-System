@@ -33,3 +33,15 @@ module.exports.getVenus = function Venus() {
 
     return venus;
 }
+
+module.exports.getEarth = function Earth() {
+    const earth = {
+        image: 'https://solarsystem.nasa.gov/system/stellar_items/image_files/4_earth.jpg',
+        distanceFromSun: '91.433 million miles',
+        yearLength: '365 Earth Days',
+        description: 'Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.',
+        radius: 3959,
+        oneEarthDay: '24 hours',
+        moons: 1
+    }
+}
