@@ -44,4 +44,20 @@ module.exports.getEarth = function Earth() {
         oneEarthDay: '24 hours',
         moons: 1
     }
+
+    return earth;
+}
+
+module.exports.getMars = function Mars() {
+    const mars = {
+        image: 'https://www.nasa.gov/sites/default/files/thumbnails/image/edu_what_is_mars.jpg',
+        distanceFromSun: '145.925 million miles',
+        yearLength: '687 Earth Days',
+        description: 'The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.',
+        radius: 2106,
+        oneEarthDay: '24.6 hours',
+        moons: 2
+    }
+
+    return mars;
 }
