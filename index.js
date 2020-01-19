@@ -104,3 +104,31 @@ module.exports.getUranus = function Uranus() {
     return uranus;
 }
 
+module.exports.getNeptune = function Neptune() {
+    const neptune = {
+        image: 'https://solarsystem.nasa.gov/system/stellar_items/image_files/90_feature_1600x900_4.jpg',
+        distanceFromSun: '2.782 billion miles',
+        yearLength: '60190 Earth Days',
+        description: 'Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune.',
+        radius: 15299.4,
+        oneEarthDay: '16 hours',
+        moons: 14
+    }
+
+    return neptune;
+}
+
+module.exports.getPluto = function Pluto() {
+    const pluto = {
+        image: 'https://spaceplace.nasa.gov/review/ice-dwarf/pluto_new_horizons.en.png',
+        distanceFromSun: '3.157 billion miles',
+        yearLength: '90530 Earth Days',
+        description: 'Dwarf planet. Pluto is a complex and mysterious world with mountains, valleys, plains, craters, and maybe glaciers. Discovered in 1930, Pluto was long considered our solar systems ninth planet. But after the discovery of similar intriguing worlds deeper in the distant Kuiper Belt, icy Pluto was reclassified as a dwarf planet. Pluto is orbited by five known moons, the largest of which is Charon. Charon is about half the size of Pluto itself, making it the largest satellite relative to the planet it orbits in our solar system. Pluto and Charon are often referred to as a "double planet."',
+        radius: 715,
+        oneEarthDay: '153 Earth Days',
+        moons: 5
+    }
+
+    return pluto;
+}
+
