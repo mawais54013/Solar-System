@@ -75,3 +75,32 @@ module.exports.getJupiter = function Jupiter() {
 
     return jupiter;
 }
+
+module.exports.getSaturn = function Saturn() {
+    const saturn = {
+        image: 'https://solarsystem.nasa.gov/system/resources/detail_files/14379_IMG003379.jpg',
+        distanceFromSun: '932.576 million miles',
+        yearLength: '10759 Earth Days',
+        description: 'Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with a dazzling system of icy rings, Saturn is unique among the planets. It is not the only planet to have rings, but none are as spectacular or as complex as Saturns. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Surrounded by more than 60 known moons, Saturn is home to some of the most fascinating landscapes in our solar system. From the jets of water that spray from Enceladus to the methane lakes on smoggy Titan, the Saturn system is a rich source of scientific discovery and still holds many mysteries.',
+        radius: 36183.7,
+        oneEarthDay: '10.7 hours',
+        moons: 53
+    }
+
+    return saturn;
+}
+
+module.exports.getUranus = function Uranus() {
+    const uranus = {
+        image: 'https://images.ctfassets.net/cnu0m8re1exe/7hQBr1Got3iOOxCn4yJqSy/8ac59ceb4d08d0474a2688ac976b1693/neptune1-1024x727.jpg?w=650&h=433&fit=fill',
+        distanceFromSun: '1.833 billion miles',
+        yearLength: '30687 Earth Days',
+        description: 'The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the Sun like a rolling ball. ',
+        radius: 15759.2,
+        oneEarthDay: '17 hours 14 minutes',
+        moons: 27
+    }
+
+    return uranus;
+}
+
