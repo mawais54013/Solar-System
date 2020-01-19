@@ -61,3 +61,17 @@ module.exports.getMars = function Mars() {
 
     return mars;
 }
+
+module.exports.getJupiter = function Jupiter() {
+    const jupiter = {
+        image:'https://www.nasa.gov/sites/default/files/thumbnails/image/hs-2016-24-a-print-new.jpg',
+        distanceFromSun: '485.316 million miles',
+        yearLength: '4333 Earth Days',
+        description: 'Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiters stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. Jupiter is surrounded by dozens of moons. Jupiter also has several rings, but unlike the famous rings of Saturn, Jupiter’s rings are very faint and made of dust, not ice.',
+        radius: 88846,
+        oneEarthDay: '9.93 hours',
+        moons: 79
+    }
+
+    return jupiter;
+}
