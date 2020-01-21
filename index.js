@@ -148,5 +148,39 @@ module.exports.getSun = function Sun() {
         radius: 432168.6,
         websiteLink: 'https://solarsystem.nasa.gov/solar-system/sun/overview/'
     }
+
+    return sun;
 }
 
+
+module.exports.getMeteorite = function Meteorites() {
+    const meteorites = {
+        meteors: 'When meteoroids enter Earth’s atmosphere (or that of another planet, like Mars) at high speed and burn up, the fireballs or “shooting stars”',
+        meteorite: 'When a meteoroid survives a trip through the atmosphere and hits the ground',
+        meteorShowers: 'Several meteors per hour can usually be seen on any given night. When there are lots more meteors',
+        meteorShowerLink: 'https://solarsystem.nasa.gov/asteroids-comets-and-meteors/meteors-and-meteorites/in-depth/',
+        image: 'https://solarsystem.nasa.gov/internal_resources/149/'
+    }
+
+    return meteorites;
+}
+
+module.exports.getComets = function Comets() {
+    const comets = {
+        def: 'Comets are cosmic snowballs of frozen gases, rock and dust that orbit the Sun. When frozen, they are the size of a small town. When a comets orbit brings it close to the Sun, it heats up and spews dust and gases into a giant glowing head larger than most planets. The dust and gases form a tail that stretches away from the Sun for millions of miles. There are likely billions of comets orbiting our Sun in the Kuiper Belt and even more distant Oort Cloud.',
+        link: 'https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/overview/?page=0&per_page=40&order=name+asc&search=&condition_1=102%3Aparent_id&condition_2=comet%3Abody_type%3Ailike',
+        image: 'https://solarsystem.nasa.gov/internal_resources/150/'
+    }
+    
+    return comets;
+}
+
+module.exports.getAsteroids = function Asteroids() {
+    const asteroids = {
+        def: 'Asteroids, sometimes called minor planets, are rocky, airless remnants left over from the early formation of our solar system about 4.6 billion years ago.',
+        image: 'https://solarsystem.nasa.gov/system/news_items/main_images/786_bennu_dec10.jpg',
+        link: 'https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/?page=0&per_page=40&order=name+asc&search=&condition_1=101%3Aparent_id&condition_2=asteroid%3Abody_type%3Ailike'
+    }
+    
+    return asteroids;
+}
