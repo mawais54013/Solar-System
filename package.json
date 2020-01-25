@@ -1,6 +1,6 @@
 {
   "name": "npm-solarsystem",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Solar System Package",
   "main": "index.js",
   "scripts": {
