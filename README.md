@@ -1,6 +1,8 @@
 # NPM Solar System
 
-![index](images/solar-system.jpg)
+<p align="center">
+  <img width="460" height="300" src="images/solar-system.jpg">
+</p>
  
 NPM SolarSystem 
 
@@ -17,4 +19,20 @@ const planets = require('npm-solarsystem')
 
 let mercury = planets.getMercury();
 ```
+# API
 
+**language**    
+Type: ```object```
+
+# Return Example
+Note: Example format is same for any calls in the API section below:
+
+``` 
+
+
+```
+
+**.getMercury**  
+Get information about mercury.
+
+**.get
