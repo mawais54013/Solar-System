@@ -19,10 +19,50 @@ const planets = require('npm-solarsystem')
 
 let mercury = planets.getMercury();
 ```
+
 # API
 
-**language**    
+## language  ## 
 Type: ```object```
+
+**.getMercury**  
+Get information about mercury.
+
+**.getVenus()**   
+Get information about venus.
+
+**.getEarth()**   
+Get information about earth.
+
+**.getMars()**   
+Get information about mars.
+
+**.getJupiter()**   
+Get information about jupiter.
+
+**.getSaturn()**   
+Get information about saturn.
+
+**.getUranus()**   
+Get information about uranus.
+
+**.getNeptune()**   
+Get information about Neptune.
+
+**.getPluto()**   
+Get information about venus.
+
+**.getSun()**   
+Get information about sun.
+
+**.getMeteorite()**   
+Get information about meteorites.
+
+**.getComets()**   
+Get information about comets.
+
+**.getAsteroids()**   
+Get information about asteroids
 
 # Return Example
 Note: Example format is same for any calls in the API section below:
@@ -45,34 +85,34 @@ Note: Example format is same for any calls in the API section below:
 
 ```
 {
-        image: // link to Sun image
-        description: // info about the sun
-        websiteLink: // link to Nasa website about the Sun
-    }
+    image: // link to Sun image
+    description: // info about the sun
+    websiteLink: // link to Nasa website about the Sun
+}
 ```
 
 ## Meteorite
 
 ```
 {
-        meteors: // definition about meteors
-        meteorShowers: // definition about meteor showers
-        meteorShowerLink: // link to Nasa website about meteor showers
-        image: // image link to meteor showers
-    }
+    meteors: // definition about meteors
+    meteorShowers: // definition about meteor showers
+    meteorShowerLink: // link to Nasa website about meteor showers
+    image: // image link to meteor showers
+}
 ```
 
 ## Comets & Asteroids
 
 ```
 {
-        def: // main definition from Nasa website
-        image: // image link
-        link: // link to Nasa website 
-    }
+    def: // main definition from Nasa website
+    image: // image link
+    link: // link to Nasa website 
+}
 ```
 
-**.getMercury**  
-Get information about mercury.
+# Final Notes
 
-**.get
+This package will be regularly updated.     
+Thank you for using. 
