@@ -14,7 +14,7 @@ module.exports.getMercury = function Mercury() {
         description: 'The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earths Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system',
         radius: 1516,
         websiteLink: 'https://solarsystem.nasa.gov/planets/mercury/overview/',
-        oneEarthDay: 176,
+        oneEarthDay: '176 Earth Day',
         moons: 0
     }
 
@@ -29,7 +29,7 @@ module.exports.getVenus = function Venus() {
         description: 'Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.',
         radius: 3760,
         websiteLink: 'https://solarsystem.nasa.gov/planets/venus/overview/',
-        oneEarthDay: 243,
+        oneEarthDay: '243 Earth Day',
         moons: 0
     }
 

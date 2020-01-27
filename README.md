@@ -27,9 +27,49 @@ Type: ```object```
 # Return Example
 Note: Example format is same for any calls in the API section below:
 
+## Plants (Including Pluto)
 ``` 
+{
+    image: // image link to the planet
+    distanceFromSun: // distance between planet and sun in miles
+    yearLength: // 1 year on the planet in Earth days
+    description: // information about planet
+    radius: // radius of planet
+    websiteLink: // link to nasa website about the planet
+    oneEarthDay: // 1 Earth day at the planet 
+    moons: // number of moons of a planet
+}
+```
 
+## Sun
 
+```
+{
+        image: // link to Sun image
+        description: // info about the sun
+        websiteLink: // link to Nasa website about the Sun
+    }
+```
+
+## Meteorite
+
+```
+{
+        meteors: // definition about meteors
+        meteorShowers: // definition about meteor showers
+        meteorShowerLink: // link to Nasa website about meteor showers
+        image: // image link to meteor showers
+    }
+```
+
+## Comets & Asteroids
+
+```
+{
+        def: // main definition from Nasa website
+        image: // image link
+        link: // link to Nasa website 
+    }
 ```
 
 **.getMercury**  
